@@ -1,5 +1,5 @@
 {
-  "name": "markdown-themeable-pdf",
+  "name": "markdown-exporter",
   "main": "./lib/markdown-themeable-pdf",
   "version": "1.2.1",
   "description": "Themeable markdown converter (Print to PDF, HTML, JPEG or PNG)",
@@ -19,11 +19,13 @@
     "cheerio": "^0.20.0",
     "highlight.js": "^9.4.0",
     "html-pdf": "^2.0.1",
+    "lodash": "^4.17.21",
     "markdown-it": "^7.0.0",
     "markdown-it-anchor": "^2.5.0",
     "markdown-it-checkbox": "^1.1.0",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-smartarrows": "^1.0.1",
     "ncp": "^2.0.0"
-  }
+  },
+  "bin": "lib/cli.js"
 }
